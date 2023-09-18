@@ -1,0 +1,90 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: rgb(238, 174, 202);
+	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border: 1px solid black;
+}
+.sa {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 40px;
+}
+.inpt input {
+	width: 150px;
+	padding: 7px;
+	border-radius: 10px;
+}
+.buttonn button {
+	padding: 7px 25px;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
+}
+
+.salom {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+}
+button {
+	padding: 10px 25px;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	color: white;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	/* cursor: progress; */
+
+	cursor: url(./lovepik-click-on-the-finger-cursor-label-png-image_401019467_wh1200.png), pointer;
+}
+
+button:hover {
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		90deg,
+		rgba(131, 58, 180, 1) 0%,
+		rgba(253, 29, 29, 1) 50%,
+		rgba(252, 176, 69, 1) 100%
+	);
+}
